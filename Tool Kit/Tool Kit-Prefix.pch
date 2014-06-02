@@ -13,4 +13,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "TKLogger.h"
+    #import "TKConstants.h"
+    #import "NSCollection+Extensions.h"
+    #import "NSError+Extensions.h"
+    #import "NSString+Extensions.h"
+    #import "NSManagedObject+TKExtensions.h"
 #endif

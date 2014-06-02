@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0F4D03193B31AE008A5AB3 /* NSCollection+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D02193B31AE008A5AB3 /* NSCollection+Extensions.m */; };
+		FA0F4D07193B3305008A5AB3 /* TKJsonMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D06193B3305008A5AB3 /* TKJsonMapper.m */; };
+		FA0F4D0C193B340D008A5AB3 /* TKRemoteEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D09193B340D008A5AB3 /* TKRemoteEntity.m */; };
+		FA0F4D0D193B340D008A5AB3 /* TKRemoteEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D0B193B340D008A5AB3 /* TKRemoteEntityDescription.m */; };
+		FA0F4D12193B341A008A5AB3 /* TKJsonEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D0F193B341A008A5AB3 /* TKJsonEntity.m */; };
+		FA0F4D13193B341A008A5AB3 /* TKJsonEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D11193B341A008A5AB3 /* TKJsonEntityDescription.m */; };
+		FA0F4D1F193B3881008A5AB3 /* TKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D16193B3881008A5AB3 /* TKConstants.m */; };
+		FA0F4D20193B3881008A5AB3 /* TKDateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D18193B3881008A5AB3 /* TKDateUtilities.m */; };
+		FA0F4D21193B3881008A5AB3 /* TKSerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D1C193B3881008A5AB3 /* TKSerializable.m */; };
+		FA0F4D22193B3881008A5AB3 /* TKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D1E193B3881008A5AB3 /* TKUtilities.m */; };
+		FA0F4D25193B388C008A5AB3 /* NSError+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D24193B388C008A5AB3 /* NSError+Extensions.m */; };
+		FA0F4D28193B3CDA008A5AB3 /* TKPropertyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D27193B3CDA008A5AB3 /* TKPropertyTransformer.m */; };
+		FA0F4D2B193B41A3008A5AB3 /* TKEntityImp.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D2A193B41A3008A5AB3 /* TKEntityImp.m */; };
+		FA0F4D2F193B6784008A5AB3 /* TKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D2E193B6784008A5AB3 /* TKLogger.m */; };
+		FA0F4D45193B7957008A5AB3 /* NSManagedObject+TKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D33193B7957008A5AB3 /* NSManagedObject+TKExtensions.m */; };
+		FA0F4D46193B7957008A5AB3 /* TKCoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D36193B7957008A5AB3 /* TKCoreDataContext.m */; };
+		FA0F4D47193B7957008A5AB3 /* TKCoreDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D38193B7957008A5AB3 /* TKCoreDataMapper.m */; };
+		FA0F4D48193B7957008A5AB3 /* TKKeyedTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D3A193B7957008A5AB3 /* TKKeyedTransformer.m */; };
+		FA0F4D49193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D3D193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.m */; };
+		FA0F4D4A193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D40193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.m */; };
+		FA0F4D4B193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D42193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.m */; };
+		FA0F4D4C193B7957008A5AB3 /* TKCoreDataGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D44193B7957008A5AB3 /* TKCoreDataGateway.m */; };
+		FA0F4D53193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D50193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.m */; };
+		FA0F4D54193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D52193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.m */; };
+		FA0F4D58193B835A008A5AB3 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D57193B835A008A5AB3 /* NSString+Extensions.m */; };
+		FA0F4D5B193B83BD008A5AB3 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F4D5A193B83BD008A5AB3 /* NSDictionary+Extensions.m */; };
+		FA9953EB193C8D93002858E3 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA9953E9193C8D93002858E3 /* Model.xcdatamodeld */; };
+		FA995408193C9166002858E3 /* TKCoreDataCompanyGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995407193C9166002858E3 /* TKCoreDataCompanyGateway.m */; };
+		FA99540B193C917B002858E3 /* TKCoreDataEmployeeGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99540A193C917B002858E3 /* TKCoreDataEmployeeGateway.m */; };
+		FA99540E193C931C002858E3 /* TKJsonBaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99540D193C931C002858E3 /* TKJsonBaseEntity.m */; };
+		FA995411193C9374002858E3 /* TKJsonCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995410193C9374002858E3 /* TKJsonCompany.m */; };
+		FA995414193C9380002858E3 /* TKJsonEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995413193C9380002858E3 /* TKJsonEmployee.m */; };
+		FA99541A193C9810002858E3 /* TKCompanyMO.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995419193C9810002858E3 /* TKCompanyMO.m */; };
+		FA99541D193C9810002858E3 /* TKEmployeeMO.m in Sources */ = {isa = PBXBuildFile; fileRef = FA99541C193C9810002858E3 /* TKEmployeeMO.m */; };
+		FA995423193CA460002858E3 /* TKDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995422193CA460002858E3 /* TKDemo.m */; };
+		FA995426193CA857002858E3 /* TKJsonLoadCompaniesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FA995425193CA857002858E3 /* TKJsonLoadCompaniesResponse.m */; };
 		FABC4E4A193A1D5A001D7A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC4E49193A1D5A001D7A3A /* Foundation.framework */; };
 		FABC4E4C193A1D5A001D7A3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC4E4B193A1D5A001D7A3A /* CoreGraphics.framework */; };
 		FABC4E4E193A1D5A001D7A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC4E4D193A1D5A001D7A3A /* UIKit.framework */; };
@@ -32,6 +68,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0F4D01193B31AE008A5AB3 /* NSCollection+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollection+Extensions.h"; sourceTree = "<group>"; };
+		FA0F4D02193B31AE008A5AB3 /* NSCollection+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollection+Extensions.m"; sourceTree = "<group>"; };
+		FA0F4D05193B3305008A5AB3 /* TKJsonMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonMapper.h; sourceTree = "<group>"; };
+		FA0F4D06193B3305008A5AB3 /* TKJsonMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonMapper.m; sourceTree = "<group>"; };
+		FA0F4D08193B340D008A5AB3 /* TKRemoteEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRemoteEntity.h; sourceTree = "<group>"; };
+		FA0F4D09193B340D008A5AB3 /* TKRemoteEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRemoteEntity.m; sourceTree = "<group>"; };
+		FA0F4D0A193B340D008A5AB3 /* TKRemoteEntityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRemoteEntityDescription.h; sourceTree = "<group>"; };
+		FA0F4D0B193B340D008A5AB3 /* TKRemoteEntityDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRemoteEntityDescription.m; sourceTree = "<group>"; };
+		FA0F4D0E193B341A008A5AB3 /* TKJsonEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonEntity.h; sourceTree = "<group>"; };
+		FA0F4D0F193B341A008A5AB3 /* TKJsonEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonEntity.m; sourceTree = "<group>"; };
+		FA0F4D10193B341A008A5AB3 /* TKJsonEntityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonEntityDescription.h; sourceTree = "<group>"; };
+		FA0F4D11193B341A008A5AB3 /* TKJsonEntityDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonEntityDescription.m; sourceTree = "<group>"; };
+		FA0F4D15193B3881008A5AB3 /* TKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKConstants.h; sourceTree = "<group>"; };
+		FA0F4D16193B3881008A5AB3 /* TKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKConstants.m; sourceTree = "<group>"; };
+		FA0F4D17193B3881008A5AB3 /* TKDateUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDateUtilities.h; sourceTree = "<group>"; };
+		FA0F4D18193B3881008A5AB3 /* TKDateUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDateUtilities.m; sourceTree = "<group>"; };
+		FA0F4D19193B3881008A5AB3 /* TKDictionaryRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDictionaryRepresentation.h; sourceTree = "<group>"; };
+		FA0F4D1A193B3881008A5AB3 /* TKEntityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEntityDescription.h; sourceTree = "<group>"; };
+		FA0F4D1B193B3881008A5AB3 /* TKSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSerializable.h; sourceTree = "<group>"; };
+		FA0F4D1C193B3881008A5AB3 /* TKSerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSerializable.m; sourceTree = "<group>"; };
+		FA0F4D1D193B3881008A5AB3 /* TKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKUtilities.h; sourceTree = "<group>"; };
+		FA0F4D1E193B3881008A5AB3 /* TKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKUtilities.m; sourceTree = "<group>"; };
+		FA0F4D23193B388C008A5AB3 /* NSError+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Extensions.h"; sourceTree = "<group>"; };
+		FA0F4D24193B388C008A5AB3 /* NSError+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Extensions.m"; sourceTree = "<group>"; };
+		FA0F4D26193B3CDA008A5AB3 /* TKPropertyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPropertyTransformer.h; sourceTree = "<group>"; };
+		FA0F4D27193B3CDA008A5AB3 /* TKPropertyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPropertyTransformer.m; sourceTree = "<group>"; };
+		FA0F4D29193B41A3008A5AB3 /* TKEntityImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEntityImp.h; sourceTree = "<group>"; };
+		FA0F4D2A193B41A3008A5AB3 /* TKEntityImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEntityImp.m; sourceTree = "<group>"; };
+		FA0F4D2C193B4C72008A5AB3 /* TKEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKEntity.h; sourceTree = "<group>"; };
+		FA0F4D2D193B6784008A5AB3 /* TKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKLogger.h; sourceTree = "<group>"; };
+		FA0F4D2E193B6784008A5AB3 /* TKLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKLogger.m; sourceTree = "<group>"; };
+		FA0F4D32193B7957008A5AB3 /* NSManagedObject+TKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+TKExtensions.h"; sourceTree = "<group>"; };
+		FA0F4D33193B7957008A5AB3 /* NSManagedObject+TKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+TKExtensions.m"; sourceTree = "<group>"; };
+		FA0F4D34193B7957008A5AB3 /* TKCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreData.h; sourceTree = "<group>"; };
+		FA0F4D35193B7957008A5AB3 /* TKCoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataContext.h; sourceTree = "<group>"; };
+		FA0F4D36193B7957008A5AB3 /* TKCoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataContext.m; sourceTree = "<group>"; };
+		FA0F4D37193B7957008A5AB3 /* TKCoreDataMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataMapper.h; sourceTree = "<group>"; };
+		FA0F4D38193B7957008A5AB3 /* TKCoreDataMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataMapper.m; sourceTree = "<group>"; };
+		FA0F4D39193B7957008A5AB3 /* TKKeyedTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKKeyedTransformer.h; sourceTree = "<group>"; };
+		FA0F4D3A193B7957008A5AB3 /* TKKeyedTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKKeyedTransformer.m; sourceTree = "<group>"; };
+		FA0F4D3C193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAbstractCoreDataEntityGateway.h; sourceTree = "<group>"; };
+		FA0F4D3D193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAbstractCoreDataEntityGateway.m; sourceTree = "<group>"; };
+		FA0F4D3E193B7957008A5AB3 /* TKAbstractCoreDataEntityGatewayProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAbstractCoreDataEntityGatewayProtected.h; sourceTree = "<group>"; };
+		FA0F4D3F193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataBaseEntityGateway.h; sourceTree = "<group>"; };
+		FA0F4D40193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataBaseEntityGateway.m; sourceTree = "<group>"; };
+		FA0F4D41193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataConcurrencyProvider.h; sourceTree = "<group>"; };
+		FA0F4D42193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataConcurrencyProvider.m; sourceTree = "<group>"; };
+		FA0F4D43193B7957008A5AB3 /* TKCoreDataGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataGateway.h; sourceTree = "<group>"; };
+		FA0F4D44193B7957008A5AB3 /* TKCoreDataGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataGateway.m; sourceTree = "<group>"; };
+		FA0F4D4D193B7B3A008A5AB3 /* TKBaseEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKBaseEntity.h; sourceTree = "<group>"; };
+		FA0F4D4F193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBaseCoreDataFetchedListProvider.h; sourceTree = "<group>"; };
+		FA0F4D50193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBaseCoreDataFetchedListProvider.m; sourceTree = "<group>"; };
+		FA0F4D51193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDualCoreDataFetchedListProvider.h; sourceTree = "<group>"; };
+		FA0F4D52193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDualCoreDataFetchedListProvider.m; sourceTree = "<group>"; };
+		FA0F4D55193B81FD008A5AB3 /* TKFetchedListProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFetchedListProvider.h; sourceTree = "<group>"; };
+		FA0F4D56193B835A008A5AB3 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		FA0F4D57193B835A008A5AB3 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		FA0F4D59193B83BD008A5AB3 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		FA0F4D5A193B83BD008A5AB3 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
+		FA9953EA193C8D93002858E3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FA995406193C9166002858E3 /* TKCoreDataCompanyGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataCompanyGateway.h; sourceTree = "<group>"; };
+		FA995407193C9166002858E3 /* TKCoreDataCompanyGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataCompanyGateway.m; sourceTree = "<group>"; };
+		FA995409193C917B002858E3 /* TKCoreDataEmployeeGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCoreDataEmployeeGateway.h; sourceTree = "<group>"; };
+		FA99540A193C917B002858E3 /* TKCoreDataEmployeeGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCoreDataEmployeeGateway.m; sourceTree = "<group>"; };
+		FA99540C193C931C002858E3 /* TKJsonBaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonBaseEntity.h; sourceTree = "<group>"; };
+		FA99540D193C931C002858E3 /* TKJsonBaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonBaseEntity.m; sourceTree = "<group>"; };
+		FA99540F193C9374002858E3 /* TKJsonCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonCompany.h; sourceTree = "<group>"; };
+		FA995410193C9374002858E3 /* TKJsonCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonCompany.m; sourceTree = "<group>"; };
+		FA995412193C9380002858E3 /* TKJsonEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonEmployee.h; sourceTree = "<group>"; };
+		FA995413193C9380002858E3 /* TKJsonEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonEmployee.m; sourceTree = "<group>"; };
+		FA995416193C95E8002858E3 /* TKCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCompany.h; sourceTree = "<group>"; };
+		FA995417193C95F0002858E3 /* TKEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKEmployee.h; sourceTree = "<group>"; };
+		FA995418193C9810002858E3 /* TKCompanyMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCompanyMO.h; sourceTree = "<group>"; };
+		FA995419193C9810002858E3 /* TKCompanyMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCompanyMO.m; sourceTree = "<group>"; };
+		FA99541B193C9810002858E3 /* TKEmployeeMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEmployeeMO.h; sourceTree = "<group>"; };
+		FA99541C193C9810002858E3 /* TKEmployeeMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEmployeeMO.m; sourceTree = "<group>"; };
+		FA995421193CA460002858E3 /* TKDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDemo.h; sourceTree = "<group>"; };
+		FA995422193CA460002858E3 /* TKDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDemo.m; sourceTree = "<group>"; };
+		FA995424193CA857002858E3 /* TKJsonLoadCompaniesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKJsonLoadCompaniesResponse.h; sourceTree = "<group>"; };
+		FA995425193CA857002858E3 /* TKJsonLoadCompaniesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKJsonLoadCompaniesResponse.m; sourceTree = "<group>"; };
 		FABC4E46193A1D5A001D7A3A /* Tool Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tool Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC4E49193A1D5A001D7A3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABC4E4B193A1D5A001D7A3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +190,237 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0F4CFD193B3149008A5AB3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E1193C8C26002858E3 /* Example */,
+				FA0F4D14193B3881008A5AB3 /* Commons */,
+				FA0F4CFE193B3149008A5AB3 /* Extensions */,
+				FA0F4CFF193B3149008A5AB3 /* Local Data */,
+				FA0F4D00193B3149008A5AB3 /* Remote Data */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA0F4CFE193B3149008A5AB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D59193B83BD008A5AB3 /* NSDictionary+Extensions.h */,
+				FA0F4D5A193B83BD008A5AB3 /* NSDictionary+Extensions.m */,
+				FA0F4D56193B835A008A5AB3 /* NSString+Extensions.h */,
+				FA0F4D57193B835A008A5AB3 /* NSString+Extensions.m */,
+				FA0F4D23193B388C008A5AB3 /* NSError+Extensions.h */,
+				FA0F4D24193B388C008A5AB3 /* NSError+Extensions.m */,
+				FA0F4D01193B31AE008A5AB3 /* NSCollection+Extensions.h */,
+				FA0F4D02193B31AE008A5AB3 /* NSCollection+Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA0F4CFF193B3149008A5AB3 /* Local Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D30193B7957008A5AB3 /* Core Data */,
+			);
+			path = "Local Data";
+			sourceTree = "<group>";
+		};
+		FA0F4D00193B3149008A5AB3 /* Remote Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D08193B340D008A5AB3 /* TKRemoteEntity.h */,
+				FA0F4D09193B340D008A5AB3 /* TKRemoteEntity.m */,
+				FA0F4D0A193B340D008A5AB3 /* TKRemoteEntityDescription.h */,
+				FA0F4D0B193B340D008A5AB3 /* TKRemoteEntityDescription.m */,
+				FA0F4D26193B3CDA008A5AB3 /* TKPropertyTransformer.h */,
+				FA0F4D27193B3CDA008A5AB3 /* TKPropertyTransformer.m */,
+				FA0F4D04193B3305008A5AB3 /* JSON */,
+			);
+			path = "Remote Data";
+			sourceTree = "<group>";
+		};
+		FA0F4D04193B3305008A5AB3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D0E193B341A008A5AB3 /* TKJsonEntity.h */,
+				FA0F4D0F193B341A008A5AB3 /* TKJsonEntity.m */,
+				FA0F4D10193B341A008A5AB3 /* TKJsonEntityDescription.h */,
+				FA0F4D11193B341A008A5AB3 /* TKJsonEntityDescription.m */,
+				FA0F4D05193B3305008A5AB3 /* TKJsonMapper.h */,
+				FA0F4D06193B3305008A5AB3 /* TKJsonMapper.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FA0F4D14193B3881008A5AB3 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D55193B81FD008A5AB3 /* TKFetchedListProvider.h */,
+				FA0F4D2D193B6784008A5AB3 /* TKLogger.h */,
+				FA0F4D2E193B6784008A5AB3 /* TKLogger.m */,
+				FA0F4D2C193B4C72008A5AB3 /* TKEntity.h */,
+				FA0F4D29193B41A3008A5AB3 /* TKEntityImp.h */,
+				FA0F4D2A193B41A3008A5AB3 /* TKEntityImp.m */,
+				FA0F4D4D193B7B3A008A5AB3 /* TKBaseEntity.h */,
+				FA0F4D15193B3881008A5AB3 /* TKConstants.h */,
+				FA0F4D16193B3881008A5AB3 /* TKConstants.m */,
+				FA0F4D17193B3881008A5AB3 /* TKDateUtilities.h */,
+				FA0F4D18193B3881008A5AB3 /* TKDateUtilities.m */,
+				FA0F4D19193B3881008A5AB3 /* TKDictionaryRepresentation.h */,
+				FA0F4D1A193B3881008A5AB3 /* TKEntityDescription.h */,
+				FA0F4D1B193B3881008A5AB3 /* TKSerializable.h */,
+				FA0F4D1C193B3881008A5AB3 /* TKSerializable.m */,
+				FA0F4D1D193B3881008A5AB3 /* TKUtilities.h */,
+				FA0F4D1E193B3881008A5AB3 /* TKUtilities.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FA0F4D30193B7957008A5AB3 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D4E193B805C008A5AB3 /* Fetched List Providers */,
+				FA0F4D31193B7957008A5AB3 /* Commons */,
+				FA0F4D3B193B7957008A5AB3 /* Gateways */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		FA0F4D31193B7957008A5AB3 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D32193B7957008A5AB3 /* NSManagedObject+TKExtensions.h */,
+				FA0F4D33193B7957008A5AB3 /* NSManagedObject+TKExtensions.m */,
+				FA0F4D34193B7957008A5AB3 /* TKCoreData.h */,
+				FA0F4D35193B7957008A5AB3 /* TKCoreDataContext.h */,
+				FA0F4D36193B7957008A5AB3 /* TKCoreDataContext.m */,
+				FA0F4D37193B7957008A5AB3 /* TKCoreDataMapper.h */,
+				FA0F4D38193B7957008A5AB3 /* TKCoreDataMapper.m */,
+				FA0F4D39193B7957008A5AB3 /* TKKeyedTransformer.h */,
+				FA0F4D3A193B7957008A5AB3 /* TKKeyedTransformer.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FA0F4D3B193B7957008A5AB3 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D3C193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.h */,
+				FA0F4D3D193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.m */,
+				FA0F4D3E193B7957008A5AB3 /* TKAbstractCoreDataEntityGatewayProtected.h */,
+				FA0F4D3F193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.h */,
+				FA0F4D40193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.m */,
+				FA0F4D41193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.h */,
+				FA0F4D42193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.m */,
+				FA0F4D43193B7957008A5AB3 /* TKCoreDataGateway.h */,
+				FA0F4D44193B7957008A5AB3 /* TKCoreDataGateway.m */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		FA0F4D4E193B805C008A5AB3 /* Fetched List Providers */ = {
+			isa = PBXGroup;
+			children = (
+				FA0F4D4F193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.h */,
+				FA0F4D50193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.m */,
+				FA0F4D51193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.h */,
+				FA0F4D52193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.m */,
+			);
+			path = "Fetched List Providers";
+			sourceTree = "<group>";
+		};
+		FA9953E1193C8C26002858E3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA995415193C9405002858E3 /* Model */,
+				FA9953E2193C8C26002858E3 /* Local Data */,
+				FA9953E6193C8C26002858E3 /* Remote Data */,
+				FA995421193CA460002858E3 /* TKDemo.h */,
+				FA995422193CA460002858E3 /* TKDemo.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		FA9953E2193C8C26002858E3 /* Local Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E3193C8C26002858E3 /* Core Data */,
+			);
+			path = "Local Data";
+			sourceTree = "<group>";
+		};
+		FA9953E3193C8C26002858E3 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E4193C8C26002858E3 /* Gateways */,
+				FA9953E5193C8C26002858E3 /* Model */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		FA9953E4193C8C26002858E3 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				FA995406193C9166002858E3 /* TKCoreDataCompanyGateway.h */,
+				FA995407193C9166002858E3 /* TKCoreDataCompanyGateway.m */,
+				FA995409193C917B002858E3 /* TKCoreDataEmployeeGateway.h */,
+				FA99540A193C917B002858E3 /* TKCoreDataEmployeeGateway.m */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		FA9953E5193C8C26002858E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E9193C8D93002858E3 /* Model.xcdatamodeld */,
+				FA99541B193C9810002858E3 /* TKEmployeeMO.h */,
+				FA99541C193C9810002858E3 /* TKEmployeeMO.m */,
+				FA995418193C9810002858E3 /* TKCompanyMO.h */,
+				FA995419193C9810002858E3 /* TKCompanyMO.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA9953E6193C8C26002858E3 /* Remote Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E7193C8C26002858E3 /* JSON */,
+			);
+			path = "Remote Data";
+			sourceTree = "<group>";
+		};
+		FA9953E7193C8C26002858E3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA9953E8193C8C26002858E3 /* Model */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FA9953E8193C8C26002858E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA99540C193C931C002858E3 /* TKJsonBaseEntity.h */,
+				FA99540D193C931C002858E3 /* TKJsonBaseEntity.m */,
+				FA99540F193C9374002858E3 /* TKJsonCompany.h */,
+				FA995410193C9374002858E3 /* TKJsonCompany.m */,
+				FA995412193C9380002858E3 /* TKJsonEmployee.h */,
+				FA995413193C9380002858E3 /* TKJsonEmployee.m */,
+				FA995424193CA857002858E3 /* TKJsonLoadCompaniesResponse.h */,
+				FA995425193CA857002858E3 /* TKJsonLoadCompaniesResponse.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA995415193C9405002858E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA995416193C95E8002858E3 /* TKCompany.h */,
+				FA995417193C95F0002858E3 /* TKEmployee.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FABC4E3D193A1D5A001D7A3A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +456,7 @@
 			children = (
 				FABC4E58193A1D5A001D7A3A /* TKAppDelegate.h */,
 				FABC4E59193A1D5A001D7A3A /* TKAppDelegate.m */,
+				FA0F4CFD193B3149008A5AB3 /* Sources */,
 				FABC4E5B193A1D5A001D7A3A /* Images.xcassets */,
 				FABC4E50193A1D5A001D7A3A /* Supporting Files */,
 			);
@@ -240,8 +588,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA995408193C9166002858E3 /* TKCoreDataCompanyGateway.m in Sources */,
+				FA0F4D0D193B340D008A5AB3 /* TKRemoteEntityDescription.m in Sources */,
+				FA995411193C9374002858E3 /* TKJsonCompany.m in Sources */,
+				FA0F4D46193B7957008A5AB3 /* TKCoreDataContext.m in Sources */,
+				FA0F4D20193B3881008A5AB3 /* TKDateUtilities.m in Sources */,
+				FA0F4D1F193B3881008A5AB3 /* TKConstants.m in Sources */,
+				FA0F4D49193B7957008A5AB3 /* TKAbstractCoreDataEntityGateway.m in Sources */,
+				FA0F4D47193B7957008A5AB3 /* TKCoreDataMapper.m in Sources */,
+				FA0F4D5B193B83BD008A5AB3 /* NSDictionary+Extensions.m in Sources */,
+				FA0F4D03193B31AE008A5AB3 /* NSCollection+Extensions.m in Sources */,
+				FA0F4D2F193B6784008A5AB3 /* TKLogger.m in Sources */,
+				FA0F4D0C193B340D008A5AB3 /* TKRemoteEntity.m in Sources */,
+				FA0F4D2B193B41A3008A5AB3 /* TKEntityImp.m in Sources */,
+				FA99541A193C9810002858E3 /* TKCompanyMO.m in Sources */,
+				FA0F4D4C193B7957008A5AB3 /* TKCoreDataGateway.m in Sources */,
+				FA0F4D4A193B7957008A5AB3 /* TKCoreDataBaseEntityGateway.m in Sources */,
+				FA0F4D58193B835A008A5AB3 /* NSString+Extensions.m in Sources */,
 				FABC4E56193A1D5A001D7A3A /* main.m in Sources */,
+				FA0F4D53193B805C008A5AB3 /* TKBaseCoreDataFetchedListProvider.m in Sources */,
 				FABC4E5A193A1D5A001D7A3A /* TKAppDelegate.m in Sources */,
+				FA0F4D28193B3CDA008A5AB3 /* TKPropertyTransformer.m in Sources */,
+				FA99540B193C917B002858E3 /* TKCoreDataEmployeeGateway.m in Sources */,
+				FA0F4D22193B3881008A5AB3 /* TKUtilities.m in Sources */,
+				FA0F4D45193B7957008A5AB3 /* NSManagedObject+TKExtensions.m in Sources */,
+				FA99541D193C9810002858E3 /* TKEmployeeMO.m in Sources */,
+				FA995426193CA857002858E3 /* TKJsonLoadCompaniesResponse.m in Sources */,
+				FA0F4D07193B3305008A5AB3 /* TKJsonMapper.m in Sources */,
+				FA0F4D13193B341A008A5AB3 /* TKJsonEntityDescription.m in Sources */,
+				FA99540E193C931C002858E3 /* TKJsonBaseEntity.m in Sources */,
+				FA0F4D12193B341A008A5AB3 /* TKJsonEntity.m in Sources */,
+				FA0F4D25193B388C008A5AB3 /* NSError+Extensions.m in Sources */,
+				FA0F4D54193B805C008A5AB3 /* TKDualCoreDataFetchedListProvider.m in Sources */,
+				FA0F4D21193B3881008A5AB3 /* TKSerializable.m in Sources */,
+				FA995423193CA460002858E3 /* TKDemo.m in Sources */,
+				FA995414193C9380002858E3 /* TKJsonEmployee.m in Sources */,
+				FA0F4D48193B7957008A5AB3 /* TKKeyedTransformer.m in Sources */,
+				FA0F4D4B193B7957008A5AB3 /* TKCoreDataConcurrencyProvider.m in Sources */,
+				FA9953EB193C8D93002858E3 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +746,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tool Kit/Tool Kit-Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "Tool Kit/Tool Kit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -375,6 +760,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tool Kit/Tool Kit-Prefix.pch";
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "Tool Kit/Tool Kit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -440,6 +826,7 @@
 				FABC4E74193A1D5A001D7A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABC4E75193A1D5A001D7A3A /* Build configuration list for PBXNativeTarget "Tool KitTests" */ = {
 			isa = XCConfigurationList;
@@ -448,8 +835,22 @@
 				FABC4E77193A1D5A001D7A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA9953E9193C8D93002858E3 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA9953EA193C8D93002858E3 /* Model.xcdatamodel */,
+			);
+			currentVersion = FA9953EA193C8D93002858E3 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FABC4E3E193A1D5A001D7A3A /* Project object */;
 }

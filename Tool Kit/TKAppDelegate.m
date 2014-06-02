@@ -7,6 +7,9 @@
 //
 
 #import "TKAppDelegate.h"
+#import "TKDemo.h"
+
+
 
 @implementation TKAppDelegate
 
@@ -16,6 +19,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    TKDemo * demo = [TKDemo new];
+    [demo demo];
+    
     return YES;
 }
 
